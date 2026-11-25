@@ -1,0 +1,20 @@
+{
+  "name": "supply-chain-tycoon",
+  "version": "5.5.0",
+  "private": true,
+  "description": "Supply Chain Tycoon : jeu de gestion de supply chain d'une maison de luxe (centrale logistique, usines, filiales, globe 3D)",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "test:ui": "node tests/ui/smoke.mjs"
+  },
+  "dependencies": {
+    "d3": "7.9.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
+}
